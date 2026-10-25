@@ -32,7 +32,7 @@ echo ""
 echo "=== nvidia-vaapi-driver VP9 loop-filter delta tests ==="
 echo ""
 
-RENDER_NODE="${RENDER_NODE:-/dev/dri/renderD128}"
+RENDER_NODE="${RENDER_NODE:-/dev/dri/renderD129}"
 
 # $1 = file name, $2 = pixel format, remaining = libvpx-vp9 options
 encode() {
